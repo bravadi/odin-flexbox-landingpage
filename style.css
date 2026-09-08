@@ -2,10 +2,10 @@ body {
     font-family: Roboto;
     margin: 0;
 }
-.header, .hero,.info, .quote, .bottom, .footer {
+.header, .top,.info, .quote, .bottom, .footer {
     padding: 0 15%;
 }
-.header, .hero, .footer {
+.header, .top, .footer {
     background-color: #1F2937;
 }
 
@@ -22,12 +22,12 @@ ul {
   padding: 0;
 }
 
-.hero-title {
-    font-size: 48px;
-    color: #F9FAF8;
+.top-title {
+    font-size: 36px;
+    color: #1F2937;
     font-weight: 900;
 }
-.hero-subtext, a {
+.top-subtext, a {
     font-size: 18px;
     color: #E5E7EB
 }

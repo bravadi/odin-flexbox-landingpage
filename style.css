@@ -1,22 +1,31 @@
 body {
     font-family: Roboto;
     margin: 0;
+    background-color: white;
 }
 .header, .top,.info, .quote, .bottom, .footer {
-    padding: 0 15%;
+    padding: 0 10%;
 }
 .header, .top, .footer {
     background-color: #1F2937;
+}
+button {
+    width: 8.5em;
+    height: 2.5em;
+    border-radius: 8px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .header-logo {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 700;
 }
 a {
   text-decoration: none;
@@ -26,10 +35,20 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
+  gap: 1.3em;
 }
 
 .top {
     display: flex;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    gap: 6%;
+    flex: 1;
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 .top-title {
     font-size: 48px;
@@ -42,22 +61,49 @@ ul {
     color: #E5E7EB;
 }
 .top-image {
-    max-width: 300px;
+    max-width: 51%;
     object-fit: contain;
 }
+.top-button {
+ border-style: none;
+}
 
+.info {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
 .info-title {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 1em;
 }
 .info-cards {
     display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards {
+    max-width: 160px;
+}
+.cards-box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 0.7em;
+}
+.cards-subtext {
+    text-align: center;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 3em 18em;
 }
 .quote-text {
     font-size: 36px;
@@ -67,15 +113,34 @@ ul {
 }
 .quote-subtext {
     text-align: end;
-}
+    margin-top: 1em;
+    font-weight: 700;
+}   
 
 .bottom {
-    display: flex;
-    justify-content: center;
+    padding: 3em 10%;
 }
 .bottom-content, button {
     background-color: #3882F6;
     color: #F9FAF8;
+}
+.bottom-content {
+    display: flex;
+    align-items: center;
+    padding: 2em 8em;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.bottom-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+}
+.bottom-button {
+    margin: 2em 3em;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
 }
 
 .footer {

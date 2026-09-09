@@ -1,5 +1,6 @@
 body {
-    font-family: Roboto;
+    /* "Font: Roboto" */
+        font-family: Roboto;
     margin: 0;
     background-color: white;
 }
@@ -7,7 +8,8 @@ body {
     padding: 0 10%;
 }
 .header, .top, .footer {
-    background-color: #1F2937;
+    /* "Dark background color (header, hero section and footer): #1F2937" */
+        background-color: #1F2937;
 }
 button {
     width: 8.5em;
@@ -23,8 +25,9 @@ button {
     padding-bottom: 1em;
 }
 .header-logo {
-    color: #F9FAF8;
-    font-size: 22px;
+    /* "Logo text: …" */
+        font-size: 24px;
+        color: #F9FAF8;
     font-weight: 700;
 }
 a {
@@ -51,14 +54,15 @@ ul {
     gap: 1em;
 }
 .top-title {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-
+    /* "Hero section main text (“This website is awesome”): …" */
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: 900;
 }
 .top-subtext, a {
-    font-size: 18px;
-    color: #E5E7EB;
+    /* "Hero secondary text (“This website has some subtext…”) and header links: …" */
+        font-size: 18px;
+        color: #E5E7EB;
 }
 .top-image {
     max-width: 51%;
@@ -73,9 +77,10 @@ ul {
     padding-bottom: 4em;
 }
 .info-title {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+    /* "Information heading: …" */
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -99,17 +104,20 @@ ul {
 }
 .cards-subtext {
     text-align: center;
+    color: #7b7b7b;
 }
 
 .quote {
-    background-color: #E5E7EB;
-    padding: 3em 18em;
+    /* "Quote: Background color: #E5E7EB" */
+        background-color: #E5E7EB;
+    padding: 6em 14em;
 }
 .quote-text {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
-    font-style: italic;
+    /* "Quote: Font size: …" */
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        font-style: italic;
 }
 .quote-subtext {
     text-align: end;
@@ -121,7 +129,8 @@ ul {
     padding: 3em 10%;
 }
 .bottom-content, button {
-    background-color: #3882F6;
+    /* "Button and “Call to action” background color: #3882F6" */
+        background-color: #3882F6;
     color: #F9FAF8;
 }
 .bottom-content {

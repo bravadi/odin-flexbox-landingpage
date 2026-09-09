@@ -88,7 +88,7 @@ a {
 
 /* Section 3: Info */
 .info {
-    padding-top: 2em;
+    padding-top: 3em;
     padding-bottom: 4em;
 }
 .info-title {
@@ -119,6 +119,7 @@ a {
 .cards-subtext {
     text-align: center;
     color: #7b7b7b;
+    margin-bottom: 16px;
 }
 
 /* Section 4: Quote */

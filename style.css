@@ -20,6 +20,11 @@ button {
     height: 2.5em;
     border-radius: 8px;
 }
+.button-text {
+    font-size: 1em;
+    font-weight: 700;
+    color:#F9FAF8;
+}
 
 /* Section 1: Header */
 .header {
@@ -38,7 +43,7 @@ button {
 a {
   text-decoration: none;
 }
-ul {
+.header-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -65,7 +70,7 @@ ul {
         color: #F9FAF8;
         font-weight: 900;
 }
-.top-subtext, a {
+.top-subtext, .header-text {
     /* "Hero secondary text (“This website has some subtext…”) and header links: …" */
         font-size: 18px;
         color: #E5E7EB;
@@ -161,6 +166,7 @@ ul {
     border-style: solid;
     border-color: #F9FAF8;
     border-width: 2px;
+
 }
 
 /* Section 6: Footer */
